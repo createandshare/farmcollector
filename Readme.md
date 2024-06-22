@@ -69,6 +69,8 @@ The project includes comprehensive unit tests using JUnit 5 and Mockito, coverin
    - **Get Report for seasons by crop type**: `GET /api/v1/report/season?cropType=Wheat`
    - **Get Report for seasons by farm name**: `GET /api/v1/report/season?farmName=Farm1`
 
+Note: Initial load of data can be done by adding ApplicationRunner. As of now, you need to create a bunch of Fields to see the data for now.
+
 ### Running Tests
 
 To run the tests, use the following command:
